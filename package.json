@@ -3,18 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp-eslint": "^4.0.2",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-jasmine-phantom": "^3.0.0"
-  },
-  "dependencies": {
-    "gulp-eslint": "^4.0.2",
-    "phantomjs": "^2.1.7",
-    "phantomjs-prebuilt": "^2.1.16"
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-jasmine-phantom": "^3.0.0",
+    "gulp-sass": "^4.0.1"
   }
 }

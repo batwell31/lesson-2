@@ -1,4 +1,6 @@
-(function() { 
-	var foo = 123;
+(function () {
+
+	var foo = 1;
 	return foo;
+
 })();
